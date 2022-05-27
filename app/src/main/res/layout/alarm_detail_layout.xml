@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/login_simple1_dialog"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+    <!--
+    android:background="@drawable/dialog_standard_form"
+    -->
+
+    <TextView
+        android:id="@+id/tx_dialog_alarm_status"
+        android:layout_width="250dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="10dp"
+        android:text="@string/hieu"
+        android:textSize="20sp"
+        android:paddingStart="60dp"
+        android:paddingEnd="60dp"
+        android:paddingTop="15dp"
+        />
+    <TextView
+        android:id="@+id/edt_dialog_alarm_sms"
+        android:layout_width="250dp"
+        android:layout_height="48dp"
+        android:layout_below="@id/tx_dialog_alarm_status"
+        android:layout_alignStart="@id/tx_dialog_alarm_status"
+        android:textSize="20sp"
+        android:textColor="@color/black"
+        android:layout_marginTop="15dp"
+        android:hint="@string/title"
+        android:autofillHints="Enter your account here"
+        />
+    <Button
+        android:id="@+id/btn_dialog_done"
+        android:layout_width="100dp"
+        android:layout_height="48dp"
+        android:layout_below="@id/edt_dialog_alarm_sms"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="25dp"
+        android:text="@string/finish"
+        android:textSize="20sp"
+        android:textColor="@color/white"
+        android:background="@color/orange"
+        />
+    <Button
+        android:id="@+id/btn_dialog_remove"
+        android:layout_width="100dp"
+        android:layout_height="48dp"
+        android:layout_below="@id/edt_dialog_alarm_sms"
+        android:layout_alignEnd="@id/edt_dialog_alarm_sms"
+        android:layout_marginTop="25dp"
+        android:text="@string/remove"
+        android:textSize="20sp"
+        android:textColor="@color/white"
+        android:background="@color/red1"
+        />
+</RelativeLayout>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="192dp"
+    android:background="?attr/colorPrimaryDark"
+    android:padding="16dp"
+    android:theme="@style/ThemeOverlay.AppCompat.Dark"
+    android:orientation="vertical"
+    android:gravity="bottom"
+    android:id="@+id/layout_header">
+
+    <ImageView
+        android:id="@+id/img_avarta"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="15dp"
+        android:clickable="true"
+        android:contentDescription="Your Avarta here"
+        android:src="@mipmap/ic_avarta"
+        />
+    <TextView
+        android:id="@+id/txv_user_infor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/hieu"
+        android:textAppearance="@style/TextAppearance.MaterialComponents.Body1"/>
+
+</LinearLayout>

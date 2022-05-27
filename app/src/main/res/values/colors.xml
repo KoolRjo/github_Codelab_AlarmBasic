@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="deeper_green">#00EE00</color>
+    <color name="green">#00FF00</color>
+    <color name="light_green">#90EE90</color>
+    <color name="lawn_green">#7CFC00</color>
+    <color name="lime_green">#32CD32</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="orange">#FF6600</color>
+    <color name="human_skin">#FFCC66</color>
+    <color name="Moccasin">#FFE4B5</color>
+    <color name="AntiqueWhite1">#FFEFDB</color>
+    <color name="red1">#FF0000</color>
+    <color name="red2">#EE0000</color>
+    <color name="dark_red">#8B0000</color>
+    <color name="light_sliver">#EEEEEE</color>
+    <color name="sliver">#CDC9C9</color>
+    <color name="sliver_dark">#8B8989</color>
+    <color name="DarkGray">#2F4F4F</color>
+    <color name="brown_wood_light">#660000</color>
+    <color name="brown_wood">#550000</color>
+    <color name="brown_wood_dark">#440000</color>
+    <color name="brown_wood_darkness">#330000</color>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+</resources>
